@@ -19,10 +19,10 @@ the second.js file is a simple "url aggregator" for squid access.log files. wher
 
 well, I can't deal with that if I KNOW that my files may be enormous to parse.
 
-## so what? deal with it!
+### so what? deal with it!
 
-thank god I know some several programming languages that also provides async i/o, like python's twisted, and they provide much more performance then node; and I do have made some benchmarks :) but it's quite unfair to compare a programming language that have threads to one that doesn't. until javascript provide sort kind of perspective, i'll not use it server-side, neither build cli tools.
+thank god I know some several programming languages that also provides async i/o, like python's twisted, and they provide much more performance then node; and I do have made some benchmarks :) but it's quite unfair to compare a programming language that have threads to one that doesn't. until javascript provide sort kind of perspective, i'll not use it server-side, neither build cli tools. but ... i doubt javascript will get to that the same way low-level programmers are used to in c, c++, python, java, etc, etc ...
 
-## but javascript is the most used programming language in the world!
+### but ... javascript is the most used programming language in the world!
 
 sure? or just github says that about their repositories? :)
