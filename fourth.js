@@ -16,7 +16,7 @@ var gc = global.gc || function() {},
     gc_all = true,
     i = 0;
 
-for (; i < 1000000; i++) {
+for (; i < 1000000; i += 1) {
     process.stdout.write('this should not be leaking\n');
     if (gc_all) {
         gc();
