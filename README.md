@@ -38,7 +38,7 @@ Linux mordor 3.2.0-52-generic #78-Ubuntu SMP Fri Jul 26 16:21:44 UTC 2013 x86_64
 $ ls -l | grep access
 -rw-rw-r-- 1 richard richard 3912914222 Aug 27 09:57 access.log
 
-$ # an access.log of 3,64GB :)
+$ # an access.log of 3.64GB :)
 
 $ python --version
 Python 2.7.3
