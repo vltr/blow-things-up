@@ -4,7 +4,7 @@
 
 var fs = require('fs'),
     readline = require('readline'),
-    matcher = /(https*\:\/{2}.*?\/)\s*/i,
+    matcher = /(https*:\/{2}.*?\/)\s*/i,
     accessLog = './access.log';
 
 var rd = readline.createInterface({
@@ -31,8 +31,10 @@ rd.on('line', function(line) {
 });
 
 rd.on('close', function() {
-    console.log("Found all of those domains:\n");
-    sites.forEach(function(site) {
-        console.log("  *", site);
-    });
+    // console.log("Found all of those domains:\n");
+    // sites.forEach(function(site) {
+        // console.log("  *", site);
+    // });
+    console.log("Found", sites.length.toFixed(0), "URLs in the",
+        accessLog, "file.");
 });

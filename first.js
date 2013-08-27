@@ -13,7 +13,7 @@ function intToMegaBytes(size) {
     return (size/Math.pow(1024, 2)).toFixed(0);
 }
 
-var strLen = (800 * Math.pow(1024, 2)) / strByteSize,
+var strLen = (maxSizeInMB * Math.pow(1024, 2)) / strByteSize,
     theStr = '', // 0 bytes ?
     steps = strLen / 100,
     i = 0;
